@@ -3,7 +3,7 @@
 
 This test plan covers functional, UI, and performance testing of MindRisers website.
 
-## 2. Test Scope
+## 2.Scope
 
 - Homepage load and navigation
 - Course search functionality
@@ -11,14 +11,14 @@ This test plan covers functional, UI, and performance testing of MindRisers webs
 - Page navigation links
 - Performance testing of search and navigation features
 
-## 3. Test Environment
+## 3.Environment
 
 - Browsers: Chrome (latest)
 - OS: Windows 10, Ubuntu 20.04
 - Tools: Selenium, Pytest, Locust (performance)
 - Network: Stable internet connection
 
-## 4. Test Strategy
+## 4.Strategy
 
 - Use Selenium + Pytest for automation of functional tests.
 - Use explicit waits to handle dynamic content.

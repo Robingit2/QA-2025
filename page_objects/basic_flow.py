@@ -88,7 +88,7 @@ class BasicFlow(BasePage):
         # self.driver.execute_script("arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});", form)
         time.sleep(1)
         
-        self.driver.find_element(By.NAME, "name").send_keys("John Doe")
+        self.driver.find_element(By.NAME, "name").send_keys("John")
         self.driver.find_element(By.NAME, "email").send_keys("john@example.com")
         self.driver.find_element(By.NAME, "mobile_no").send_keys("9800000000")
         self.driver.find_element(By.NAME, "subject").send_keys("Enquiry about course")
